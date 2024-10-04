@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+img#neymarjr{
+    width: 200px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav li{
+    padding-right: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+main p{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    list-style: none;
+}
